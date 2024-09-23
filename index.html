@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow Example</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="slideshow-container">
+    <!-- Slide 1: Image -->
+    <div class="mySlides fade">
+        <img src="assets/img/enmanuel-abreu-quezada-Meg2l4ptv88-unsplash.jpg" alt="Statue">
+    </div>
+
+    <!-- Slide 2: Video -->
+    <div class="mySlides fade">
+        <video src="assets/movie/18239063-hd_1920_1080_24fps.mp4" controls></video>
+    </div>
+
+    <!-- Next and Previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<br>
+
+<!-- Dots for navigation -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
